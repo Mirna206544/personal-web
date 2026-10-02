@@ -200,7 +200,7 @@ header .container .social i:hover {
 /* end header style */
 /* start hero style */
 .hero {
-    background-image: url('/images/background-img.jpg');
+    background-image: url('images/background-img.jpg');
     background-repeat: no-repeat;
     background-size:100% 100% ;
     /* height: calc(100vh - 60px); */
