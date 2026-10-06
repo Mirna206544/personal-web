@@ -200,7 +200,7 @@ header .container .social i:hover {
 /* end header style */
 /* start hero style */
 .hero {
-    background-image: url('/personal-web/images/background-img.jpg');
+    background-image: url('../images/background-img.jpg');
     background-repeat: no-repeat;
     background-size:100% 100% ;
     /* height: calc(100vh - 60px); */
@@ -235,7 +235,11 @@ header .container .social i:hover {
     font-family: almarai;
     font-weight: 800;
 }
-
+@media (max-width:768px) {
+    .hero .container .hero-title{
+        font-size: 30px;
+    }
+}
 .hero .container .hero-info h2 {
     color:var(--h2--color);
     font-size: 30px;
@@ -888,7 +892,12 @@ hr {
 }
 
 .plan:hover {
-    transform: translateY(-8px) scale(1.07);
+    transform: translateY(-8px) scale(1.05);
+}
+@media (max-width:768px) {
+    .plan:hover {
+        transform: translateY(-8px) scale(1.04);
+    }
 }
 .basic-pack {
      background: linear-gradient(135deg, #E4D5C3, #976F34);
@@ -957,7 +966,7 @@ hr {
          padding: 0 0 20px;
     }
     .price-card-inner {
-         transform: translate(15px, 10px);
+         transform: translate(10px, 5px);
     }
     .price-circle-holder {
         bottom: -70px;
@@ -969,7 +978,7 @@ hr {
 
 }
  .price-circle:hover {
-    scale: 1.05;
+    scale: 1.04;
 }
 .price-amount {
   font-size: 1.6rem;
@@ -987,7 +996,7 @@ footer {
     padding-top: 70px ;
     padding-bottom: 40px ;
     background-color: #4b2e19;
-    background-image: url('/personal-web/images/footer-image.avif');
+    background-image: url('../images/footer-image.avif');
     background-repeat: no-repeat;
     background-position:center ;
     background-size: cover;
@@ -1049,6 +1058,13 @@ footer .container  .section a:hover {
     display: flex;
     flex-direction: column;
     margin: 15px;
+    position: relative;
+}
+@media (max-width:768px) {
+    .letter form {
+        justify-content: right;
+        align-items: start;
+    }
 }
 .letter form input[type ="text"] ,
 .letter form input[type ="email"] {
