@@ -238,6 +238,7 @@ header .container .social i:hover {
 @media (max-width:768px) {
     .hero .container .hero-title{
         font-size: 20px;
+        font-weight: 600;
     }
 }
 .hero .container .hero-info h2 {
