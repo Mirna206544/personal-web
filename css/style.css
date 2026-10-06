@@ -248,7 +248,7 @@ header .container .social i:hover {
 }
 @media (max-width:768px) {
     .hero .container .hero-title {
-         font-size: 35px;
+         font-size: 30px;
          text-align: center;
     }
     .hero .container .hero-info h2 {
